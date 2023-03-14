@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="shortcut icon" href="img/iconos/fantasma.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.0/sweetalert2.all.min.js"
+        integrity="sha512-59nEVFc+y/gLPL2WjOAQqCbvZbs49xWdTiCxVpjeKhb8oyMviN8fcwFRl8VxVzeLfiH/NKpklQqqLFg0NdZBaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Portafolio - Jhon Estiven</title>
+</head>
+
+<body>
+
+    <a name="anun"></a>
+    <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+    <a class="btn-w" id="btn-w" href="">
+        <i class="fa-brands fa-square-whatsapp"></i>
+        Contáctame
+    </a>
+
+    <!-- SECCIÓN HEADER -->
+    <div class="contenedor-header">
+
+        <header class="cab">
+            <div class="logo">
+                <a href="" class="lin" target="_blank">JS.DEV<span></span></a>
+            </div>
+            <div id="abajo"></div>
+            <nav id="nav" class="navi">
+                <div class="sirv">
+                    <img src="img/yo/ReadyPlayerMe-Avatar.png" alt="" class="Logo_nav">
+                    <ul class="lista">
+                        <li class="list"><a href="#inicio" class="lin correr activar"
+                                onclick="seleccionar(this)">INICIO</a></li>
+                        <li class="list"><a href="#sobremi" class="lin correr" onclick="seleccionar(this)">SOBRE MÍ</a>
+                        </li>
+                        <li class="list"><a href="#skills" class="lin correr" onclick="seleccionar(this)">SKILLS</a>
+                        </li>
+                        <li class="list"><a href="#portafolio" class="lin correr"
+                                onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                        <li class="list"><a href="#contacto" class="lin correr" onclick="seleccionar(this)">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars" id="ponerse"></i>
+                <i class="fa-solid fa-xmark" id="quitarse"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCIÓN DE INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor">
+                <h1 class="titulo">Hola, soy <span>Jhon Stiven</span></h1>
+                <h2 class="sub">software development student</h2>
+                <h2 class="sub">Frontend Web Developer</h2>
+                <div class="redes">
+                    <a href="" class="lin" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="" class="lin" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="lin" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="" class="lin" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="" class="lin" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contenedor-img">
+                <img src="img/yo/ReadyPlayerMe-Avatar.png" alt="">
+
+            </div>
+        </div>
+        <div style="height: 40px; overflow: hidden;" class="waves"><svg viewBox="0 0 500 150"
+            preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M-16.64,-18.23 C127.82,330.11 368.22,-218.56 562.92,107.08 L547.11,242.28 L0.00,150.00 Z"
+                style="stroke: none; fill: #fff;"></path>
+        </svg></div>
+
+    </section>
+
+    <!-- SECCIÓN SOBRE MÍ -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenedor_sobre">
+            <div class="conte-sobremi">
+                <h1 class="titulo" data-aos="fade-up" data-aos-duration="400">SOBRE MÍ
+                </h1>
+
+                <p class="descrip" data-aos="fade-up" data-aos-duration="300">Mi nombre es <a
+                        href="" class="link_sobre" target="_blank">Jhon
+                        Estiven</a>, tengo 21 años de edad, soy un estudiante de desarrollo de software. Me gustaría tener la oportunidad de unirme a una empresa que me permita aplicar mis habilidades y conocimientos en un entorno en el que pueda continuar creciendo y desarrollándome profesionalmente.
+                    <br>
+                    Como resultado de mi formación y dedicación a la educación, estoy seguro de que puedo aportar valor y contribuir al crecimiento de una organización que comparta mis valores y objetivos a largo plazo.
+                </p>
+
+                <div class="botoni">
+                    <a href="" class="button" target="_blank">
+                        <span class="anima"></span>
+                        <span class="anima"></span>
+                        <span class="anima"></span>
+                        <span class="anima"></span>
+                        Escribeme <i
+                            class="fa-brands fa-facebook-messenger"></i>
+                    </a>
+                    <a href="cv/CV-JhonEstiven.pdf" class="button" target="_blank" download="Curriculum-JhonEstiven.pdf">
+                        <span class="anima"></span>
+                        <span class="anima"></span>
+                        <span class="anima"></span>
+                        <span class="anima"></span>
+                        Descargar CV <i class="fa-solid fa-file-pdf"></i></a>
+                </div>
+            </div>
+            <div class="contenido-seccion" data-aos="fade-right">
+
+                <div class="conte-detalles">
+                    <h3 class="titulo"><i class="fa-regular fa-user"></i> Datos Personales</h3>
+                    <ul class="lista">
+                        <li class="list">
+                            <strong>Nacimiento</strong>
+                        </li>
+                        <li class="list">
+                            <strong>Celular</strong>
+                        </li>
+                        <li class="list">
+                            <strong>E-mail</strong>
+                        </li>
+                        <li class="list">
+                            <strong>Dirección</strong>
+                        </li>
+                        <li class="list">
+                            <strong>Especialidad</strong>
+                            <span>Desarrollador Web FrontEnd JR <i class="fa-solid fa-laptop-code"></i></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="conte-intereses">
+
+                    <h3 class="titulo"><i class="fa-regular fa-thumbs-up"></i>Intereses</h3>
+
+                    <div class="conte-inte">
+
+                        <div class="interes">
+                            <i class="fa-brands fa-square-js"></i>
+                            <span>JAVASCRIPT</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>PROGRAMACIÓN</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-video"></i>
+                            <span>PELÍCULAS</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-brands fa-react"></i>
+                            <span>REACT</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-burger"></i>
+                            <span>COMIDA</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FÚTBOL</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-brands fa-java"></i>
+                            <span>JAVA</span>
+                        </div>
+   
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCIÓN SKILLS -->
+    <section id="skills" class="skills">
+        <div class="container_skills">
+            <h3 class="titulo-t" data-aos="fade-up" data-aos-duration="400">HABILIDADES</h3>
+
+            <div class="tecnologias">
+                
+                <div class="tecnologia">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3 class="titulo">HTML 5</h3>
+                </div>
+                <div class="tecnologia">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3 class="titulo">CSS 3</h3>
+                </div>
+                <div class="tecnologia">
+                    <i class="fa-brands fa-sass"></i>
+                    <h3 class="titulo">SASS</h3>
+                </div>
+                <div class="tecnologia">
+                    <i class="fa-brands fa-square-js"></i>
+                    <h3 class="titulo">JAVASCRIPT</h3>
+                </div>
+                <div class="tecnologia">
+                    <i class="fa-brands fa-java"></i>
+                    <h3 class="titulo">JAVA (Básico)</h3>
+                </div>
+                <div class="tecnologia">
+                    <i class="fa-brands fa-php"></i>
+                    <h3 class="titulo">PHP (Básico)</h3>
+                </div>
+                <div class="tecnologia">
+                    <i class="fa-solid fa-database"></i>
+                    <h3 class="titulo">MYSQL (Básico)</h3>
+                </div>
+                <div class="tecnologia">
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h3 class="titulo">BOOTSTRAP</h3>
+                </div>
+                <div class="tecnologia">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <h3 class="titulo">GIT</h3>
+                </div>
+                <div class="tecnologia">
+                    <i class="fa-brands fa-github"></i>
+                    <h3 class="titulo">GITHUB</h3>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenedor_prin">
+            <h3 class="titulo" data-aos="fade-up" data-aos-duration="400">CONTACTO</h3>
+
+            <div class="contee" data-aos="zoom-in">
+                <div class="continer">
+                    <div class="slider-contenedor">
+                        <div class="slider-test one">
+                            <img src="img/slider/web1.jpg" alt="">
+                        </div>
+
+                        <div class="slider-test two">
+                            <img src="img/slider/web2.jpg" alt="">
+                        </div>
+
+                        <div class="slider-test tree">
+                            <img src="img/slider/web3.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="formulario">
+                    <img src="img/iconos/yeti.png" alt="">
+                    <form action="">
+                        <br>
+                        <br>
+                        <input type="text" name="nombre" placeholder="Tu nombre..." required>
+                        <br>
+                        <input type="text" name="correo" placeholder="Correo electrónico..." required>
+                        <br>
+                        <input type="text" name="tema" placeholder="Tema...">
+                        <br>
+                        <textarea name="mensaje" placeholder="Mensaje..." cols="30" rows="3" required></textarea>
+                        <br>
+                        <button class="btn" type="button">Enviar <i class="fa-regular fa-paper-plane"></i></button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="pies">
+        <a href="#anun" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="contenedor">
+            <div class="icono">
+                <div class="logo">
+                    <img src="img/yo/ReadyPlayerMe-Avatar.png" alt="">
+                    <h1 class="title">GEstiven</h1>
+                </div>
+                <p class="des">Apasionado por el desarrollo web, estoy constantemente buscando aprender y actualizar mis conocimientos sobre las últimas tecnologías en el campo. Mi experiencia incluye la utilización de HTML, CSS, SASS, Bootstrap, JavaScript, etc... para crear aplicaciones web dinámicas.
+                <br>
+                Si estás interesado en contratar mis servicios o necesitas más información sobre mi, no dude en ponerse en contacto conmigo.
+                </p>
+                <div class="redes">
+                    <a href="" class="lin" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href=" class="lin" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="lin" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="" class="lin" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="lin" target="_blank">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <a href="" class="lin" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="listas">
+                <ul class="lista">
+                    <h4 class="sobre">Sobre mí <i class="fa-regular fa-address-card"></i></h4>
+
+                    <li class="list">
+                        <p class="lin"><i class="fa-solid fa-list-ol"></i> 21 Años de edad</p>
+                    </li>
+                    <li class="list">
+                        <p class="lin"><i class="fa-solid fa-mars-stroke"></i> Masculino</p>
+                    </li>
+                    <li class="list">
+                        <p class="lin"><i class="fa-solid fa-arrow-up-wide-short"></i>/p>
+                    </li>
+                    <li class="list">
+                        <p class="lin"><i class="fa-solid fa-cake-candles"></i></p>
+                    </li>
+
+
+                </ul>
+                <ul class="lista">
+                    <h4 class="sobre">Contacto <i class="fa-solid fa-network-wired"></i></h4>
+                    <li class="list">
+                        <a href="" class="lin"  target="_blank"><i
+                                class="fa-brands fa-facebook"></i> Facebook</a>
+                    </li>
+                    <li class="list">
+                        <a href="" class="lin"  target="_blank"><i
+                                class="fa-brands fa-instagram"></i> Instagram</a>
+                    </li>
+                    <li class="list">
+                        <a href="" class="lin"  target="_blank"><i
+                                class="fa-brands fa-linkedin"></i> Linkedin</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="creditos">
+            <h5 class="proye">Desarrollado por <a href=""
+                    class="des" target="_blank">Jhon Estiven</a>
+            </h5>
+
+            <div class="botoni">
+                <p class="pee">&copy; Todos los derechos reservados <br>
+                    Elaboración: HTML-CSS-JAVASCRIPT <i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+
+    </footer>
+
+    
+    <script src="js/js.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+
+</html>
